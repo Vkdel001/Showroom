@@ -30,17 +30,18 @@ h1 {
 
 .tile {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 100px; /* Keep the width as is or adjust based on your design */
     margin: 10px;
     background-color: red;
     color: #ffffff;
     text-align: center;
-    line-height: 150px;
     text-decoration: none;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    padding: 10px; /* Added padding */
+    box-sizing: border-box; /* Ensures padding is included in the width */
 }
+
 
 .tile:hover {
     transform: scale(1.05);
